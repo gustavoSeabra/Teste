@@ -17,3 +17,13 @@ C:\Projetos\Estudos\TesteETurn\TesteETurn\obj\Debug\TesteETurn.csproj.GenerateRe
 C:\Projetos\Estudos\TesteETurn\TesteETurn\obj\Debug\TesteETurn.csproj.CoreCompileInputs.cache
 C:\Projetos\Estudos\TesteETurn\TesteETurn\obj\Debug\TesteETurn.exe
 C:\Projetos\Estudos\TesteETurn\TesteETurn\obj\Debug\TesteETurn.pdb
+C:\Projetos\Teste\TesteETurn\bin\Debug\TesteETurn.exe.config
+C:\Projetos\Teste\TesteETurn\bin\Debug\TesteETurn.exe
+C:\Projetos\Teste\TesteETurn\bin\Debug\TesteETurn.pdb
+C:\Projetos\Teste\TesteETurn\obj\Debug\TesteETurn.csprojResolveAssemblyReference.cache
+C:\Projetos\Teste\TesteETurn\obj\Debug\TesteETurn.frmPrincipal.resources
+C:\Projetos\Teste\TesteETurn\obj\Debug\TesteETurn.Properties.Resources.resources
+C:\Projetos\Teste\TesteETurn\obj\Debug\TesteETurn.csproj.GenerateResource.Cache
+C:\Projetos\Teste\TesteETurn\obj\Debug\TesteETurn.csproj.CoreCompileInputs.cache
+C:\Projetos\Teste\TesteETurn\obj\Debug\TesteETurn.exe
+C:\Projetos\Teste\TesteETurn\obj\Debug\TesteETurn.pdb

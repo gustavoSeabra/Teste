@@ -169,11 +169,10 @@ namespace TesteETurn
                 }
                 else if (rbPergunta10.Checked)
                 {
-                    // O numero de viagens começando em C e terminando em C com distância menor que 30
+                    InicializaVariaveisGlobais();
+                    PercorreTrecho("C", "C", 99);
 
-                    /*
-                     * Não tive tempo habil para desenvolver este método. Fica para uma próxima oportunidade.
-                     */
+                    MessageBox.Show("O numero de viagens começando em C e terminando em C com distância menor que 30 é: " + PercorreMapa(30), "..::  Resultado  ::..", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch(NullReferenceException nex)
@@ -251,8 +250,21 @@ namespace TesteETurn
             return contador;
         }
 
+        private int PercorreMapa(int distanciaMaxima)
+        {
+            int contador = 0;
 
+            // fazendo combinações no array de caminhos
+            foreach(var origem in lstCaminhos)
+                foreach(var destino in lstCaminhos)
+                    if ((origem.Custo + destino.Custo) <= distanciaMaxima)
+                        contador++;
 
+            // Somando os elementos da rota que possuem custo <= 30
+            contador += lstCaminhos.Select(i => i.Custo <= 30).Count();
+
+            return contador;
+        }
 
         #endregion
     }
